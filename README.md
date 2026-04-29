@@ -114,11 +114,22 @@ npm run dev
 
 Then open http://localhost:5173 in your browser.
 
-You can test with these credentials:
-- Email: mutsa@student.ac.bw
-- Password: password123
+## Accessing the App
 
-> Make sure the backend is also running for the app to work fully.
+Visit https://stasha-frontend.vercel.app
 
----
+**Important Note:** This app is hosted on Render.com's free tier which resets the database after 15 minutes of inactivity. This means:
+
+- Every time the server restarts you will need to register a new account
+- If your login details are not working simply register a new account
+- Each time you visit the app after a period of inactivity please register fresh credentials
+
+**Steps to access the app:**
+1. Click **Register** on the login page
+2. Fill in your name and email address
+3. Create a password (minimum 6 characters)
+4. Pick a security question and answer
+5. Click **Create Account**
+
+You will be logged in automatically after registering. Please do not logout and expect to login again with the same credentials as the database may have reset.
 
